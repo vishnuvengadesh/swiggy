@@ -1,0 +1,248 @@
+*{
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+}
+.part-1{
+      display: flex;
+      justify-content: space-between;
+       
+      
+}
+.part-1-1{
+      margin-left: 45px;
+}
+.swiggy-img{
+      width: 180px;
+      margin-left: 40px;
+}
+.xtra-div{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 40px;
+}
+.login{
+      color: black;
+      text-decoration: none;
+      font-size: 95%;
+      font-weight: 600;
+      margin-right: 15px;
+}
+.login:hover{
+      color: orangered;
+}
+.signup{
+      width: 110px;
+      height: 40px;
+      background-color: black;
+      color: white;
+      border: none;
+      margin-right: 10px;
+      font-weight: 600;
+      font-size: 100%;
+}
+.signup:hover{
+      cursor: pointer;
+}
+.order-food{
+      width: 650px;
+      font-size: 24px;
+      margin-left: 35px;
+      color: rgb(153, 155, 157);
+}
+.input1{
+      height: 60px;
+      width: 490px;
+      margin-top: 30px;
+      border: 1px solid gray;
+      border-right: none;
+      margin-left: 35px;
+}
+.find{
+      height: 61px;
+      width: 150px;
+      border: none;
+      color: white;
+      font-weight: bolder;
+      font-size: 16px;
+      background-color: orangered;
+      text-transform: uppercase;
+}
+
+.find:hover{
+      cursor: pointer;
+}
+.popular{
+      margin: 30px 35px;
+      color: rgb(153, 155, 157);
+      font-weight: bold;
+}
+.areas{
+      margin-left: 35px;
+}
+span{
+      color: rgb(153, 155, 157);
+}
+.input1::placeholder{
+      font-size: 17px;
+      font-weight: bold;
+      padding-left: 20px;
+      
+}
+.input1:hover{
+      border: 1px solid orangered;
+}
+.change-text::after{
+
+      color: black;
+      font-size: 30px;
+      margin-left: 35px;
+      animation: ani 15s linear infinite;
+      content: "";
+}
+@keyframes ani {
+      0%{
+          content: "Hungry?";
+      }
+      15%{
+         content: "Unexpected guests?";
+      }
+      30%{
+            content: "Cooking gone wrong?";
+      } 
+      75%{
+           content: "Movie marathon?";
+      }
+      90%{
+            content: "Game night?";
+      }
+      100%{
+            content: "Late night at office?";
+      }
+}
+.part-2{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      text-align: center;
+      color: white;
+      background-color: rgb(16, 4, 4);
+      padding-bottom: 60px;
+      
+}
+.part-3{
+      display: flex;
+      justify-content: space-between;
+      
+}
+.phones{
+      display: flex;
+}
+.phone1{
+      width: 400px;
+      height: 500px;
+      margin-left: 20px;
+}
+.phone2{
+      width: 400px;
+      height: 500px;
+      margin-top: 120px;
+}
+.text{
+      margin-top: 130px;
+      margin-left: 70px;
+}
+.text h1{
+      margin-bottom: 20px;
+      font-size: 50px;
+}
+.text p{
+     font-size: 20px;
+     color: rgb(153, 155, 157); 
+}
+.apple-google{
+      margin-top: 20px;
+}
+/*                         part-4                       */
+.part-4-5{
+      background-color: black;
+      width: 100%;
+      height: 100vh;
+}
+.part-4{
+      display: flex;
+      justify-content: space-between;
+      color: white;
+}
+.line-head{
+      color: rgb(153, 155, 157);
+      font-weight: 700;
+      font-size: 13px;
+
+}
+ul a{
+      color: white;
+      text-decoration: none;
+}
+.part-4 ul{
+      list-style-type: none;
+      margin-top: 35px;
+}
+.part-4 ul li{
+      margin-top: 15px;
+}
+.apl{
+      border: 1px solid white;
+      border-radius: 7px;
+      width: 150px;
+}
+.gogl{
+      border: 1px solid white;
+      border-radius: 7px;
+      width: 150px;
+      margin-top: 20px;
+}
+.company{
+      margin-left: 50px;
+}
+.app-stores{
+      margin-top: 90px;
+      margin-right: 40px;
+}
+.part-5{
+      color: white;
+      margin-left: 50px;
+}
+hr{
+      border: 1px solid rgb(153, 155, 157);
+      width: 93%;
+      margin-left: 50px;
+      margin-top: 10px;
+}
+.sub-div{
+      display: flex;
+      justify-content: space-between;
+}
+.Explore{
+      margin: 20px 0px;
+      color: rgb(153, 155, 157); 
+}
+footer p{
+      color: white;
+}
+.footer{
+      display: flex;
+      text-align: center;
+      align-items: center;
+      justify-content: space-between;
+      margin-left: 50px;
+      margin-top: 30px;
+      margin-right: 40px;
+}
+footer img{
+     width: 130px;
+}
+.social-media{
+      letter-spacing: 10px;
+}
